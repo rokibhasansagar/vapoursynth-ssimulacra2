@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install zig
-        run: sudo snap install zig --classic # --edge
+        run: sudo snap install zig --classic --beta # --edge
 
       # Runs a set of commands using the runners shell     
       - name: build
